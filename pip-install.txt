@@ -12,3 +12,5 @@ pip install tqdm
 
 # (Optional) For data processing
 pip install pandas scikit-learn
+pip install evaluate
+
