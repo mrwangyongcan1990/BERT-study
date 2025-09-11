@@ -1,0 +1,14 @@
+# Generate by chatGpt
+# Core PyTorch (choose the right command for your system/GPU/CUDA version)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121  # CUDA 12.1
+# or for CPU-only:
+# pip install torch torchvision torchaudio
+
+# Hugging Face ecosystem
+pip install transformers datasets evaluate accelerate
+
+# (Optional) For progress bars and logging
+pip install tqdm
+
+# (Optional) For data processing
+pip install pandas scikit-learn
